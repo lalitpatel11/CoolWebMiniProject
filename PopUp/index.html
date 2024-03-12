@@ -1,0 +1,22 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pop Up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <input type="button" onclick="pop.show('this is warning','error while open pop up')" value="Show">
+    <div id="popwrap">
+        <div id="popbox">
+            <h1 id="poptitle">TITLE</h1>
+            <p id="poptext">TEXT</p>
+            <div
+            onclick="pop.hide()"
+            id="popclose"
+            >&#9746</div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

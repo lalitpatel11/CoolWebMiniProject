@@ -1,0 +1,17 @@
+#check {
+    margin-right: 6px;
+}
+
+label {
+    font-weight: 500;
+    color: #333;
+    cursor: pointer;
+}
+
+#check:checked {
+    accent-color: #7d2ae8;
+}
+
+#check:checked~label {
+    color: #7d2ae8;
+}

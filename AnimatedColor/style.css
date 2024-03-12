@@ -1,0 +1,30 @@
+
+body{
+    background-color: aqua;
+}
+.div-1 {
+    background-color: #000000;
+    height: 500px;
+    width: 90%;
+   padding: 20px;
+  border-bottom-right-radius: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+.earPhone{
+    height: 100%;
+    background-color: transparent;
+    
+}
+.parentDiv{
+    display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+}
+.div-2 {
+    background-color: #ABBAEA;
+}
+
+.div-3 {
+    background-color: #FBD603;
+}

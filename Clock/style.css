@@ -1,0 +1,25 @@
+* {
+    font-family: "Roboto";
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #282828;
+}
+
+h1 {
+    color: #FFFFFF;
+    font-size: 144px;
+    font-weight: bold;
+}
+
+h1::selection {
+    background-color: red;
+}
